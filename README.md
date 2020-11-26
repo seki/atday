@@ -14,6 +14,23 @@ iCloudのApp用パスワードを発行してください。
 
 - https://support.apple.com/ja-jp/HT204397
 
+手に入るのは、たぶん12桁のパスワードです。-（ハイフン）は入れちゃダメ。
+
+
+## ローカル環境
+
+このリポジトリをgit clone。
+
+```
+% git clone git@github.com:seki/atday.git
+```
+
+環境変数の設定
+
+```
+export ICLOUD_USER=メールアドレス
+export ICLOUD_APP_PASSWORD=App用パスワード
+```
 
 
 ## Herokuの設定
