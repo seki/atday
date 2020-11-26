@@ -1,0 +1,1 @@
+worker: ruby src/atday.rb
