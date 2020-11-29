@@ -36,6 +36,7 @@ export ICLOUD_APP_PASSWORD=App用パスワード
 ## Herokuの設定
 
 まずはアカウントを作って、アプリも作って、以下を実行。
+add-on使うのでクレジットカードの登録もしておいてください。
 
 ```
 % heroku login
