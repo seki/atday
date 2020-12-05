@@ -1,1 +1,1 @@
-worker: ruby src/atday.rb
+web: ruby main.rb
