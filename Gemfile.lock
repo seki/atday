@@ -4,12 +4,14 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     mini_mime (1.0.2)
+    rotp (6.2.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   mail
+  rotp
 
 RUBY VERSION
    ruby 2.7.1p83

@@ -76,4 +76,6 @@ def main(arg)
   smtp.send_me("from #{ndays} days ago", text)
 end
 
-main(ARGV.shift || 28)
+if __FILE__ == $0
+  main(ARGV.shift || 28)
+end
