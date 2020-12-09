@@ -51,7 +51,7 @@ class MyIMAP
     e.map {|msg|
       s = @imap.fetch(msg, "RFC822")[0].attr["RFC822"]
       m = Mail.new(s)
-      next(nil) unless m.subject.include?('atday')
+      next(nil) unless (m.subject || '').include?('atday')
       subject = m.subject.strip
       subject = nil if subject == 'atday'
       if m.multipart?
